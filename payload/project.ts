@@ -4,38 +4,197 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      where: 'Linux Foundation',
+      title: 'PHP Legacy Code -> MSA Nodejs Express API 서버로 포팅 작업',
+      startedAt: '2020-11',
+      where: 'Gabia',
       descriptions: [
         {
-          content:
-            'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
+          weight: 'MEDIUM',
+          content: 'Typescript Node.js Backend',
         },
         {
-          content:
-            'Achieved significant improvements in system performance and resource management.',
           weight: 'MEDIUM',
+          content: 'Gitlab CI/CD',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: 'Dev / Stage / Prod 환경별 Docker 환경변수 설정' },
+            { content: 'Docker 이미지 빌드' },
+            { content: 'K8s 배포' },
+          ],
+        },
+        {
+          weight: 'MEDIUM',
+          content: '테스트 코드 작성',
+          descriptions: [
+            { content: 'jest를 이용한 유닛 테스트 작성' },
+            { content: 'supertest를 이용한 통합 테스트 작성' },
           ],
         },
       ],
     },
     {
-      title: 'Global Linux Bootcamp',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
-      where: 'Open Source Community',
+      title: '타인의 감시 아래, 자신의 목표를 공표하고 인증하는 애플리케이션 - planA',
+      startedAt: '2020-03',
+      endedAt: '2020-07',
+      where: '아주대학교 - 캡스톤 디자인',
       descriptions: [
         {
-          content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
+          weight: 'MEDIUM',
+          content: 'Node.js Backend / React Native Frontend / AWS / openCV',
+          descriptions: [{ content: 'Backend 부분 혼자서 담당', weight: 'BOLD' }],
         },
         {
+          weight: 'MEDIUM',
+          content: 'Swagger를 통한 API 관리',
+          descriptions: [{ content: 'API마다 Swagger 문서 작성' }],
+        },
+        {
+          weight: 'MEDIUM',
+          content: '반복적인 작업 필요한 경우 Cron job 설정',
+        },
+        {
+          weight: 'MEDIUM',
+          content: 'Repository',
+          href: 'https://github.com/wltjr0920/SwCap1995_backend_api_server_Nodejs',
+        },
+      ],
+    },
+    {
+      title: '패션 스타일 트렌드 분석의 의사 결정 시스템 개발',
+      startedAt: '2019-09',
+      endedAt: '2019-12',
+      where: '아주대학교',
+      descriptions: [
+        {
+          weight: 'MEDIUM',
+          content: 'Django Backend / React Frontend',
+        },
+        {
+          weight: 'MEDIUM',
+          content: '30만장의 데이터 학습',
+          descriptions: [
+            { content: 'ResNet을 통한 모델 학습' },
+            { content: 'Attribute 약 100여개 추출' },
+            { content: 'maskRCNN 으로 배경 제거 후 분류작업' },
+          ],
+        },
+        {
+          weight: 'MEDIUM',
+          content: 'StyleQ - 사용자의 이미지에 대한 Attribute 분석',
+        },
+        {
+          weight: 'MEDIUM',
+          content: 'TrendQ - 어떤 그룹과 Attribute를 섞을 지 선택',
+        },
+        {
+          weight: 'MEDIUM',
           content:
-            'Successfully trained over 5,000 participants in system administration and security. ',
+              'FashionQ - 사용자의 이미지와, 선택한 그룹의 Intersection출력 및 패션쇼 링크 제공',
+        },
+        {
+          weight: 'MEDIUM',
+          content: '논문 링크',
+          href: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10499014',
+        },
+        {
+          weight: 'MEDIUM',
+          content: 'Repository(Private)',
+          href: 'https://github.com/wltjr0920/FashionQ',
+        },
+      ],
+    },
+    {
+      title: 'Fasttext를 이용한 아이디어 추천 알고리즘 개발',
+      startedAt: '2019-09',
+      endedAt: '2019-11',
+      where: '아주대학교',
+      descriptions: [
+        {
+          weight: 'MEDIUM',
+          content: '사용자가 키워드를 입력하면 랜덤 아이디어를 추천해주는 서비스 개발',
+        },
+        {
+          weight: 'MEDIUM',
+          content: '위키 백과 문서로 모델 학습 및 전처리',
+          descriptions: [{ content: '약 1000 개의 형용사 / 700개의 명사 처리' }],
+        },
+        {
+          weight: 'MEDIUM',
+          content: 'Python Django 백엔드 머신러닝 서빙',
+          descriptions: [{ content: 'Fasttext 모델 싱글턴 패턴 사용' }],
+        },
+        {
+          weight: 'MEDIUM',
+          content: '논문 링크',
+          href: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09346532',
+        },
+        {
+          weight: 'MEDIUM',
+          content: 'Repository',
+          href: 'https://github.com/ajou-jipjung-2/D_AI_Server_Project',
+        },
+      ],
+    },
+    {
+      title: 'IoT 환경에서의 QUIC 프로토콜 적용',
+      startedAt: '2019-03',
+      endedAt: '2019-07',
+      where: '아주대학교',
+      descriptions: [
+        { content: 'QUIC 연구' },
+        {
+          weight: 'MEDIUM',
+          content: 'NS-3 on Mac 시뮬레이션',
+          descriptions: [
+            {
+              content: 'HandOver 상황 구현',
+            },
+            {
+              content: 'HandOver 상황에서의 QUIC 적용',
+            },
+            {
+              content: 'TCP와 QUIC의 비교',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '핏츠 2.0 서버개발',
+      startedAt: '2018-08',
+      endedAt: '2019-02',
+      where: 'Popone',
+      descriptions: [
+        {
+          weight: 'MEDIUM',
+          content: 'Ruby on rails 서버 개발',
+          descriptions: [
+            { content: 'HomeFeed API 내 체형/ 전체체형 나누기' },
+            { content: '게시글 view 수 개선 등' },
+          ],
+        },
+        {
+          weight: 'MEDIUM',
+          content: '배포 프로세스 경험',
+          descriptions: [
+            { content: 'AWS Elastic Beanstalk 을 사용' },
+            { content: 'Docker Build 경험' },
+          ],
+        },
+        {
+          weight: 'MEDIUM',
+          content: '테스트 코드 및 Swagger 작성',
+          descriptions: [
+            { content: 'Rails 빌드 전 테스트를 위한 테스트코드 작성' },
+            { content: 'Android / iOS 개발자를 위한 Swagger 문서 작성' },
+          ],
+        },
+        {
+          weight: 'MEDIUM',
+          content: '쇼핑몰 크롤링',
+          descriptions: [
+            { content: '메타쇼핑몰을 위한 타 쇼핑몰 제품 크롤링' },
+            { content: 'Nokogiri / Selenium 사용' },
+          ],
         },
       ],
     },

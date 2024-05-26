@@ -2,31 +2,51 @@ import { IExperience } from '../component/experience/IExperience';
 
 const experience: IExperience.Payload = {
   disable: false,
-  disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
-      position: 'System Engineer',
-      startedAt: '1996-02',
+      title: 'Kakao Entertainment',
+      position: 'Backend Developer',
+      startedAt: '2021-12',
       descriptions: [
-        'Steering Kernel patching and updates for various distributions',
-        'Automating deployment and integration processes for Linux servers',
-        'Spearheading initiatives to enhance Linux kernel security',
-        'Collaborating with global developers to coordinate code contributions',
+        '카카오 웹툰 서비스 유지 및 보수'
       ],
-      skillKeywords: ['C', 'Linux', 'Kernel', 'Security', ' Automation'],
+      skillKeywords: [
+        'Spring(Java, Kotlin)',
+        'GCP, AWS',
+        'Kubernetes',
+        ''
+      ],
     },
     {
-      title: 'Open Source Community',
-      position: 'System Advocate and Developer',
-      startedAt: '2010-06',
-      endedAt: '2018-01',
+      title: 'Gabia',
+      position: 'Backend Developer',
+      startedAt: '2020-11',
+      endedAt: '2021-11',
       descriptions: [
-        'Promoted the use and development of Linux globally.',
-        'Developed automated scripts to streamline system configuration.',
-        'Facilitated live patching systems, reducing downtime.',
+        '하이웍스 서비스 유지보스 및 레거시 코드 개선',
+        'Gitlab CI/CD 과정 경험',
+        '레거시 코드 Typescript Nodejs Express API서버로 포팅작업',
       ],
-      skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
+      skillKeywords: [
+        'PHP(Laravel, CodeIgniter)',
+        'Node.js Express (Typescript)',
+        'MySQL',
+        'Memcached',
+        'Gitlab CI/CD',
+        'Docker',
+        'Kubernetes',
+      ],
+    },
+    {
+      title: 'Popone',
+      position: 'Backend Developer (인턴)',
+      startedAt: '2018-08',
+      endedAt: '2019-02',
+      descriptions: [
+        'Fitts 2.0 애플리케이션 Ruby on rails 서버개발',
+        'Rails의 Blazer 툴 사용 -> 데이터 시각화',
+      ],
+      skillKeywords: ['Ruby on Rails', 'MySQL', 'Python', 'AWS EC2', 'AWS Elastic Beanstalk'],
     },
   ],
 };
