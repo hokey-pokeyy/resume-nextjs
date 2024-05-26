@@ -88,7 +88,7 @@ const project: IProject.Payload = {
         {
           weight: 'MEDIUM',
           content:
-              'FashionQ - 사용자의 이미지와, 선택한 그룹의 Intersection출력 및 패션쇼 링크 제공',
+            'FashionQ - 사용자의 이미지와, 선택한 그룹의 Intersection출력 및 패션쇼 링크 제공',
         },
         {
           weight: 'MEDIUM',

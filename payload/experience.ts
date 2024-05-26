@@ -7,15 +7,8 @@ const experience: IExperience.Payload = {
       title: 'Kakao Entertainment',
       position: 'Backend Developer',
       startedAt: '2021-12',
-      descriptions: [
-        '카카오 웹툰 서비스 유지 및 보수'
-      ],
-      skillKeywords: [
-        'Spring(Java, Kotlin)',
-        'GCP, AWS',
-        'Kubernetes',
-        ''
-      ],
+      descriptions: ['카카오 웹툰 서비스 유지 및 보수'],
+      skillKeywords: ['Spring(Java, Kotlin)', 'GCP, AWS', 'Kubernetes', ''],
     },
     {
       title: 'Gabia',
